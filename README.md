@@ -18,10 +18,15 @@ OPTIONS
 
   -b
     indented output of the input stream
-    
+
+
 SEE ALSO
   grep(1)
 
 
 NOTES
-  https://github.com/Red-Seadog/grepcss
+  grepcss is also valid with other commands,
+  for example: grepcss -c *.css | sort -u | grepcss -b > alphabeticallySorted.css
+
+repository at: https://github.com/Red-Seadog/grepcss
+  contributed by http://www.red-seadog.com
